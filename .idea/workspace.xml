@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f37f4b5-371c-4d6a-a20e-d49c5698f37c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/demo2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shooter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5f37f4b5-371c-4d6a-a20e-d49c5698f37c" time="1376291903016" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f37f4b5-371c-4d6a-a20e-d49c5698f37c" time="1376302243548" ignored="false" />
     <file path="/a.js" changelist="5f37f4b5-371c-4d6a-a20e-d49c5698f37c" time="1376131534068" ignored="false" />
+    <file path="/plan.log" changelist="5f37f4b5-371c-4d6a-a20e-d49c5698f37c" time="1376302181270" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="32" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plan.log" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plan.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="0.31143552">
               <folding />
             </state>
           </provider>
@@ -92,6 +101,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/client/config.js" />
+        <option value="$PROJECT_DIR$/plan.log" />
       </list>
     </option>
   </component>
@@ -115,7 +125,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -126,18 +136,40 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.idesettings.debugger.javascript" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server.js" />
+    <property name="options.lastSelected" value="reference.idesettings.debugger.javascript" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server.js" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.nodeServer">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -155,10 +187,6 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug local-path="$PROJECT_DIR$/server" />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="/usr/local/bin/node" />
       <envs />
@@ -169,7 +197,8 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/server">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug local-path="$PROJECT_DIR$/server" />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -186,6 +215,9 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/server">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -247,12 +279,18 @@
       <created>1376130509868</created>
       <updated>1376130509868</updated>
     </task>
+    <task id="LOCAL-00001" summary="初步简单的设想">
+      <created>1376302261427</created>
+      <updated>1376302261427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1900" height="970" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -313,7 +351,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步简单的设想" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -327,6 +365,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="初步简单的设想" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,6 +373,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/game.draw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -415,6 +468,13 @@
     <entry file="file://$PROJECT_DIR$/client/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="32" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="0.31143552">
           <folding />
         </state>
       </provider>
